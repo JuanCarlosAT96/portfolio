@@ -1,0 +1,21 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+:root {
+--blanco: #ffffff;
+--primario: #f6ff47;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  font-family: Open Sans, Arial;
+  background: #2292A4;
+  color: var(--blanco);
+}
